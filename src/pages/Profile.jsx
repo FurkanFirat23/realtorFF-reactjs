@@ -6,6 +6,7 @@ import { useNavigate } from "react-router";
 export default function Profile() {
   const auth = getAuth();
   const navigate = useNavigate();
+  const [editDetail, setEditDetail] = useState(false);
   const [formData, setFormData] = useState({
     name: auth.currentUser.displayName,
     email: auth.currentUser.email,
@@ -40,8 +41,11 @@ export default function Profile() {
           <div className="flex justify-between whitespace-nowrap text-sm sm:text-lg">
             <p className="flex items-center mb-6">
               Do you want to change your name ?
-              <span className="text-red-600 hover:text-red-800 transition ease-in-out duration-200 ml-2 cursor-pointer">
-                Edit
+              <span
+                onClick={setEditDetail((prevState) => !prevState)}
+                className="text-red-600 hover:text-red-800 transition ease-in-out duration-200 ml-2 cursor-pointer"
+              >
+                {editDetail ? "Apply change" : "Edit"}
               </span>
             </p>
             <p
