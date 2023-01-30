@@ -151,7 +151,7 @@ export default function Profile() {
               to="/create-listing"
               className="flex justify-center items-center"
             >
-              <FcHome className="mr-2 text-3xl bg-red-200 rounded-full p-1 border-2" />
+              <FcHome className="mr-2 text-2xl bg-red-300 rounded-full p-1 border-2" />
               Sell or rent your home
             </Link>
           </button>
