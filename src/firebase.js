@@ -16,15 +16,7 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDxqw412ZqvMKF6dWOAlq9uZL2mVwnNPac",
-//   authDomain: "realtorff-a4ffa.firebaseapp.com",
-//   projectId: "realtorff-a4ffa",
-//   storageBucket: "realtorff-a4ffa.appspot.com",
-//   messagingSenderId: "313005019057",
-//   appId: "1:313005019057:web:cba4f76b23a8bb9169f790",
-//   measurementId: "G-G4BFSR7JLY",
-// };
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
