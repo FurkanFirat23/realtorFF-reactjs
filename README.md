@@ -1,3 +1,20 @@
+# RealtorFF 
+## Realtor Clone project is a web application that mimics the functionality of a real estate website, allowing users to browse properties, search for properties based on specific criteria, and contact realtors.
+  
+   
+## Features
+
+- Property listings with details, including photos, descriptions, and amenities
+- User accounts for setting up new listings, and contacting realtors
+  
+## 🛠 Technologies Used
+- Front-end: ReactJS, TailwindCSS
+- Back-end: Firebase
+- Node Js - `JavaScript runtime built`
+- Visual Studio Code - `Code Editor`
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
